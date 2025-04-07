@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Form</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Belajar Form</h1>
+    <form action="#" metdhod="POST" autocomplete="on" enctype="multipart/form-data">
+        <legend><b style="color: aquamarine" ;>Data Pribadi </b></legend>
+        <div>
+            <label for="">Nama</label>
+            <input type="text" name="Name" placeholder="Nama lengkap">
+
+        </div>
+        <div>
+            <label for="">Tempat Tinggal :</label>
+            <input type="text" name="tempat_lahir" placeholder="sebutkan nama kota">
+
+
+        </div>
+        <div>
+            <label for="">Tanggal Lahir</label>
+            <input type="date" name="tanggal_lahir" placeholder="tanggal lahir" >
+        </div>
+        <div>
+            <label for="">jenis kelamin</label>
+            <input type="radio" name="jk" value="laki-laki" required>laki-laki
+            <input type="radio" name="jk" value="prempuan" required>prempuan
+        </div>
+        <div>
+            <fieldset>
+            <label for="Alamat"></label>Alamat
+            <textarea name="Alamat" cols="38" rows="11" ></textarea>
+        </div>
+    </fieldset>
+        <div>
+            <label for="">Hobi</label>
+            <input type="checkbox" name="Hobi[]" value="Memanah">Memanah
+            <input type="checkbox" name="Hobi[]" value="Futsal">Futsal
+            <input type="checkbox" name="Hobi[]" value="Sepak Bola">Sepak Bola
+            <input type="checkbox" name="Hobi[]" value="Badminton">Badminton
+            <input type="checkbox" name="Hobi[]" value="Pingpong">Pingpong
+            <input type="checkbox" name="Hobi[]" value="Menulis">Menulis
+
+        </div>
+        <div>
+            <label for="">Jumlah anggota keluarga</label>
+            <input type="number" name="Jumlah anggota keluarga" min="1" max="20" placeholder="Jumlah anggota keluarga">
+        </div>
+        <div>
+            <label for="">Email</label>
+            <input type="email" name="Email">
+        </div>
+        <div>
+            <label for="">warna Kesukaan</label>
+            <input type="color" name="Warna" >
+        </div>
+        <div>
+            <label for="">Pilih Jurusan</label>
+            <select name="Pilih Jurusan" required >
+                <option value="">pilih Jurusan</option>
+                <option value="Teknik Komputer dan Jaringan">Teknik Komputer dan Jaringan </option>
+                <option value="Desain Grafis">Desain Grafis</option>
+                <option value="Aplikasi Perkantoran">Aplikasi Perkantoran</option>
+                <option value="Tata Busana">Tata Busana</option>
+                <option value="Otomotif">Otomotif</option>
+                <option value="Foto/Video">Foto/Video</option>
+            </select>
+        </div>
+
+        
+        <div>
+            <input type="reset">
+            <input type="submit" value="Simpan" name="Simpan">
+        </div>
+
+
+
+     </form>   
+
+</body>
+</html>

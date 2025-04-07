@@ -1,0 +1,24 @@
+.data {
+     color: blanchedalmond;
+     font-size: 25pt;
+}
+
+input {
+    background-color: blueviolet;
+    font-family: Mandali;
+}
+
+h1, h2, h3 {
+    color: brown;
+    font-family: Ani;
+}
+
+form  {
+    background: yellowgreen; 
+
+}
+
+#lorem {
+    color: bisque;
+    background: burlywood;
+}
